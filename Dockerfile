@@ -1,5 +1,5 @@
 FROM ruby:2.5.1
-COPY .. /usr/src/app
+COPY . /usr/src/app
 VOLUME /usr/src/app
 EXPOSE 4567
 
